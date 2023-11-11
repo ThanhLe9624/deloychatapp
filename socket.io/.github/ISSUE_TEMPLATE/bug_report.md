@@ -39,7 +39,7 @@ Socket.IO client version: `x.y.z`
 ```js
 import { io } from "socket.io-client";
 
-const socket = io("ws://localhost:3000/", {});
+const socket = io("https://deloychatapp.vercel.app/", {});
 
 socket.on("connect", () => {
   console.log(`connect ${socket.id}`);
